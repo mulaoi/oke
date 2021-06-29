@@ -1,0 +1,33 @@
+body
+{
+    font-family:sans-serif;
+    background: #bae1ff;
+    color: #808080;
+
+}
+h2{
+    text-align: center;
+} 
+
+table
+{
+    border-collapse: collapse;
+    width: 35%;
+}
+ 
+table, th, td
+{
+    border: 1px solid gainsboro;
+    padding: 20px 80px;
+}
+ 
+th
+{
+    background-color: dodgerblue;
+    color: white;
+}
+ 
+tr:nth-child(odd)
+{
+    background-color: Lavender;
+}
